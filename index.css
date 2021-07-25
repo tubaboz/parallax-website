@@ -135,8 +135,31 @@ body, html {
 .background-container--image4{
     background-attachment: scroll;
 }
-    
+.heading-container{
+    font-size: 1rem;
 }
+.heading-container__heading--big{
+    padding: 0.8rem;
+    border-top-left-radius: 0.6rem;
+    border-bottom-right-radius: 0.6rem;
+    outline: 0.1rem inset purple;
+    outline-offset: 0.4rem;
+    line-height: 1.7rem;
+}
+.heading-container__heading--small{
+    padding: 0.2rem;
+    border-top-left-radius: 0.2rem;
+    border-bottom-right-radius: 0.2rem;
+    outline: 0.1rem inset purple;
+    outline-offset: 0.1rem;
+    line-height: 1.5rem;
+}
+.section{
+    font-size:0.6rem ;
+}   
+}
+
+
 
 
 
